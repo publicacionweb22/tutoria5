@@ -1,0 +1,31 @@
+.orange-border {
+    border: 1px solid orange;
+}
+
+.box-1 {
+    width: 300px; /* Este valor sobreescribe al valor por defecto del elemento*/
+    height: 250px; /* Este valor sobreescribe al valor por defecto del elemento*/
+    background-color: orange;
+}
+
+.box-2 {
+    border: 1px solid orange;
+    width: 750px;
+}
+
+.responsive-pic {
+    width: 100%; /* El porcentaje será respecto al padre*/
+    height: auto;
+}
+
+.cita {
+    width: 80%;
+    height: 100px;
+    background-color: lightgray;
+    margin: 0 auto;
+    overflow: auto; /*Si el contenido se desborda implementa un scroll*/
+}
+
+.cita p {
+    font-size: 28px;
+}
